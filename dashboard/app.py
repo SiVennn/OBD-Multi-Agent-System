@@ -12,13 +12,13 @@ try:
 except:
     pass
 
-st.title("🚗 Dashboard Monitoring OBD-II Berbasis MAS")
+st.title("Dashboard Monitoring OBD-II Berbasis MAS")
 st.subheader("Deteksi Anomali Kendaraan Modern Menggunakan Multi-Agentic System")
 
 st.write("Selamat datang di aplikasi Dashboard Monitoring OBD-II. Proyek ini telah ditingkatkan menggunakan arsitektur **Multi-Agent System (MAS)**, di mana tugas-tugas cerdas didistribusikan ke tiga agen AI otonom (*Data Agent, AI Agent,* dan *Expert Agent*). Mereka berkolaborasi untuk memproses data, mendeteksi pola anomali, dan merumuskan diagnosis klinis kendaraan secara otomatis.")
 
 st.write("---")
-st.subheader("📊 Alur Kerja Aplikasi (Lihat Sidebar):")
+st.subheader("Alur Kerja Aplikasi (Lihat Sidebar):")
 st.markdown("""
 * **1. Dataset:** Eksplorasi data sensor kendaraan hasil prapemrosesan (*preprocessing*).
 * **2. Visualisasi:** Analisis visual metrik tren sensor dan matriks korelasi.

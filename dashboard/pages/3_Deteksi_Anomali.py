@@ -8,7 +8,7 @@ from agents import DataAgent, AnomalyDetectionAgent, DiagnosticAgent
 
 st.set_page_config(page_title="Deteksi Anomali - MAS", page_icon="🤖", layout="wide")
 
-st.title("🤖 Sistem Deteksi Anomali Berbasis Multi-Agent")
+st.title("Sistem Deteksi Anomali Berbasis Multi-Agent")
 st.write("Halaman ini digerakkan oleh kolaborasi 3 Agen AI yang saling berbagi tugas secara otonom.")
 st.write("---")
 

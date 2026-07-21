@@ -24,7 +24,7 @@ df_rf_res = load_result(path_rf_result)
 # ==========================================
 # 📊 TAB PERBANDINGAN
 # ==========================================
-tab1, tab2 = st.tabs(["📈 Log Hasil Pengujian", "⚔️ Analisis Komparasi Model"])
+tab1, tab2 = st.tabs(["Log Hasil Pengujian", "Analisis Komparasi Model"])
 
 with tab1:
     st.subheader("Log Hasil Prediksi Model")
@@ -76,7 +76,7 @@ with tab2:
     st.table(df_komparasi.set_index("Karakteristik"))
     
     # Bagian Metrik Ringkasan Performa (Bisa Anda sesuaikan dengan angka akurasi/f1-score asli riset Anda)
-    st.markdown("### 📌 Kesimpulan Rekomendasi Penelitian")
+    st.markdown("### Kesimpulan Rekomendasi Penelitian")
     
     m1, m2, m3 = st.columns(3)
     m1.metric(label="Rekomendasi Utama", value="Hybrid System")

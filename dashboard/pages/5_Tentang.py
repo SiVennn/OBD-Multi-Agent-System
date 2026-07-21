@@ -12,9 +12,9 @@ st.write("---")
 st.subheader("Arsitektur Sistem & Algoritma Utama")
 st.markdown("""
 **Sistem Multi-Agen (*Centralized Sequential Architecture*):**
-* 🛠️ **Data Collector Agent:** Agen otonom yang bertugas merekayasa data mentah dan membongkar format kompleks (JSON/String) menjadi struktur terstandarisasi.
-* 🧠 **AI Detection Agent:** Agen kecerdasan buatan (*Isolation Forest* & *Random Forest*) yang dilengkapi sistem toleransi kesalahan (*Fault Tolerance*) untuk mendeteksi anomali pada fitur sensor.
-* 🩺 **Expert Diagnostic Agent:** Agen pakar yang bertugas menganalisis komputasi model menjadi bahasa keputusan status mesin.
+* **Data Collector Agent:** Agen otonom yang bertugas merekayasa data mentah dan membongkar format kompleks (JSON/String) menjadi struktur terstandarisasi.
+* **AI Detection Agent:** Agen kecerdasan buatan (*Isolation Forest* & *Random Forest*) yang dilengkapi sistem toleransi kesalahan (*Fault Tolerance*) untuk mendeteksi anomali pada fitur sensor.
+* **Expert Diagnostic Agent:** Agen pakar yang bertugas menganalisis komputasi model menjadi bahasa keputusan status mesin.
 """)
 st.write("---")
 
